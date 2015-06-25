@@ -10,6 +10,7 @@ public:
 	{
 		static MREntityManager instance;
 		return &instance;
+		//some
 	}
 
 	MREntityManager(const MREntityManager& rhs) = delete;
